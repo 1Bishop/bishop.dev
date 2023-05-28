@@ -3,8 +3,10 @@
 </script>
 
 <template>
-  <div>
-    <h1>Hello World!</h1>
+  <div class="">
+    <h1 class="bg-ctp-base text-ctp-pink">
+      Hello world!
+    </h1>
   </div>
 </template>
 
