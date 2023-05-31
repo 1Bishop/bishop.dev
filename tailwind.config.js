@@ -4,6 +4,7 @@ module.exports = {
         "./components/**/*.{js,vue,ts}",
         "./layouts/**/*.vue",
         "./pages/**/*.vue",
+        "./content/**/*.md",
         "./plugins/**/*.{js,ts}",
         "./nuxt.config.{js,ts}",
         "./app.vue",
@@ -12,6 +13,7 @@ module.exports = {
         extend: {},
     },
     plugins: [
+        require('@tailwindcss/typography'),
         require('@catppuccin/tailwindcss')({
             // prefix to use, e.g. `text-pink` becomes `text-ctp-pink`.
             // default is `false`, which means no prefix
@@ -19,6 +21,7 @@ module.exports = {
             // which flavour of colours to use by default, in the `:root`
             defaultFlavour: 'frappe'
         }),
+
     ],
 }
 
