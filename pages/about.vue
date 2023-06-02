@@ -8,7 +8,7 @@
 
 <template>
   <div class="pb-2">
-    <h1 class="text-center text-ctp-blue">
+    <h1 class="text-center bg-ctp-base text-ctp-green">
       About Page
     </h1>
   </div>
