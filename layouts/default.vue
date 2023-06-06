@@ -1,15 +1,16 @@
 <script setup lang="ts">
+import NavBar from "~/components/NavBar.vue";
+import Footer from "~/components/Footer.vue";
 
 </script>
 
 <template>
-  <nav class="bg-ctp-base py-5 justify-center flex text-center">
-    <NuxtLink to="/" class="text-ctp-pink flex-1">Home</NuxtLink>
-    <NuxtLink to="/about" class="text-ctp-pink flex-1">About</NuxtLink>
-    <NuxtLink to="/blog" class="text-ctp-pink flex-1">Blog</NuxtLink>
-  </nav>
-  <div class="h-10 bg-ctp-base">
-    <slot />
+  <div class="flex flex-col min-h-screen">
+    <NavBar />
+    <main class="flex-grow">
+      <slot />
+    </main>
+    <Footer />
   </div>
 </template>
 

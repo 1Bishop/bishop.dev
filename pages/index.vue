@@ -4,10 +4,10 @@
 
 <template>
   <div class="">
-    <h1 class="bg-ctp-base text-ctp-pink">
-      Hello world!
+    <h1 class="text-center test">
+      Home Page
     </h1>
-    <BlogPostList />
+    <BlogPostList/>
   </div>
 </template>
 

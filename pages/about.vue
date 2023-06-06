@@ -8,7 +8,7 @@
 
 <template>
   <div class="pb-2">
-    <h1 class="text-center bg-ctp-base text-ctp-lavender">
+    <h1 class="text-center">
       About Page
     </h1>
   </div>

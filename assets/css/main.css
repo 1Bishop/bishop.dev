@@ -1,11 +1,17 @@
+@import "dmvendor.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-  .article {
-      @apply prose lg:prose-xl;
-      @apply p-4 mt-6 lg:mt-8 m-auto lg:max-w-3xl;
-  }
+    .article {
+        @apply prose lg:prose-xl;
+        @apply p-4 mt-6 lg:mt-8 m-auto lg:max-w-3xl;
+    }
 
+}
+
+.test {
+    font-family: dm, monospace;
 }
