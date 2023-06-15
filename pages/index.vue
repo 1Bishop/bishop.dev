@@ -1,12 +1,11 @@
 <script setup lang="ts">
 
+import Hero from "~/components/Hero.vue";
 </script>
 
 <template>
-  <div class="">
-    <h1 class="text-center test">
-      Home Page
-    </h1>
+  <div>
+    <Hero/>
     <BlogPostList/>
   </div>
 </template>
