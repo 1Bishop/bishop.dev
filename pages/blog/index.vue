@@ -7,7 +7,7 @@
     <h1 class="bg-ctp-base text-ctp-pink">
       List of Blog Posts
     </h1>
-    <BlogPostList />
+    <BlogPostList/>
   </div>
 </template>
 

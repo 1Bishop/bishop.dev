@@ -5,12 +5,12 @@ import Footer from "~/components/Footer.vue";
 </script>
 
 <template>
-  <div class="flex flex-col min-h-screen">
-    <NavBar />
+  <div class="flex flex-col min-h-screen bg-ctp-crust text-white">
+    <NavBar/>
     <main class="flex-grow">
-      <slot />
+      <slot/>
     </main>
-    <Footer />
+    <Footer/>
   </div>
 </template>
 

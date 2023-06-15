@@ -1,42 +1,9 @@
-# Nuxt 3 Minimal Starter
+# Personal Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## TODO:
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [ ] Make simple home page link [cchan's](https://christina.codes/)
+- [ ] Create a simple about page
+- [ ] Create a simple blog layout
+- [ ] Add link to Resume & Linkedin
+- [ ] Make Portfolio Page with Projects (Nuxt Content)
